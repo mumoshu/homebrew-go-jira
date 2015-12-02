@@ -21,7 +21,8 @@ class GoJira < Formula
       mkdir ~/.jira.d
 
       cat <<EOM >~/.jira.d/config.yml
-      endpoint: https://jira.mycompany.com
+      endpoint: https://jira.mycompany.com or https://mycompany.atlassian.net
+      user: login user
       EOM
 
     If you are working on a "foo" project, create a configuration under your project workspace at ./.jira.d/config.yml that looks like:
