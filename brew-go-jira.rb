@@ -2,14 +2,14 @@ class GoJira < Formula
   desc "go-jira - simple jira command line client in Go" if respond_to? :desc
   homepage "https://github.com/Netflix-Skunkworks/go-jira"
 
-  # curl -L -o hoge https://github.com/Netflix-Skunkworks/go-jira/releases/download/0.0.16/jira-darwin-38 && chmod +x hoge && ./hoge -h
-  url "https://github.com/Netflix-Skunkworks/go-jira/releases/download/0.0.16/jira-darwin-386"
+  # curl -L -o hoge https://github.com/Netflix-Skunkworks/go-jira/releases/download/0.0.19/jira-darwin-38 && chmod +x hoge && ./hoge -h
+  url "https://github.com/Netflix-Skunkworks/go-jira/releases/download/0.0.19/jira-darwin-386"
 
   # shasum -a 256 thefile
-  sha256 "2d7aebbda271124dc8844929713ac531608b9a7c6ff008000c1322e806a94e21"
+  sha256 "c7b6c9ff974c7120bb721579ca53fc6d9c7e8537f50f2d8c18b7c74deec58896"
 
   # See https://github.com/Netflix-Skunkworks/go-jira/releases
-  version "0.0.16"
+  version "0.0.19"
 
   def install
     bin.install "jira-darwin-386" => "jira"
